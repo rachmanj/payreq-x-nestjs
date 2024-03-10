@@ -1,0 +1,18 @@
+POST http://localhost:3333/angsuran
+Content-Type: application/json
+
+{
+    "installmentCode": "A009",
+    "creditorName": "PT. Oallah Bro",
+    "startDate": "2024-02-07",
+    "installmentPeriod": 12,
+    "description": "Pinjaman utk unit HD 003",
+    "capital": 10000000,
+    "userId": 1
+}
+
+###
+GET http://localhost:3333/angsuran
+
+###
+DELETE http://localhost:3333/angsuran/1
